@@ -8,5 +8,5 @@ interface loan_details {
 	abstract void personal_details();
 	abstract void education_details();
 	abstract void check();
-	
+	abstract void eligibility();
 }
