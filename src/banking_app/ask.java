@@ -10,7 +10,7 @@ class ask implements loan_details {
 	
 	@Override
 	public void amount() {
-		System.out.println("Enter LOAN amount");
+		System.out.println("Enter LOAN Amount");
 		loan_amount = sc.nextInt();
 		if (loan_amount >= 1000000000) {
 			System.out.println("Failed: We are unable to loan out such large amount :(");
