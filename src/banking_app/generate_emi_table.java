@@ -7,7 +7,7 @@ public class generate_emi_table {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("WELCOME TO iBANK :)");
+		System.out.println("Hello WELCOME TO iBANK :)");
 		System.out.println("Press number to select LOAN type: \n 1.HOME LOAN at 5% rate of interest\n 2.EDUCATION LOAN at 8% rate of interest\n 3.CAR LOAN at 10% rate of interest");
 		int loan_type = sc.nextInt();
 
